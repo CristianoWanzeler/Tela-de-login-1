@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(249, 233, 255);
+  display: flex;/*centralizar*/
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* algura -vh altura da tela*/
+
+}

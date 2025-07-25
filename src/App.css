@@ -1,0 +1,96 @@
+form{
+  border: 2px solid rgba(255, 0, 191, 0.3);
+  padding: 40px 20px; /*distância das bordas*/
+  background-color: rgb(255, 142, 236);/*cor de fundo da tela login*/
+  border-radius: 10px; /*arredondamento da tela*/
+  max-width: 400px; /* largura da tela de login*/
+  box-shadow: 4px 4px 4px rgb(190, 27, 163); /* combreamento tela login*/ 
+  animation: vai-e-vem 5s infinite alternate; /* falta animar*/
+
+}
+form:hover{
+  animation:nome;
+  cursor:pointer;
+}
+form h2{/* título do login*/
+  text-align: center; /* centralizar*/
+  color: #ff1bd9;
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+form .input-campo{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;/* */
+  font-size: 15px; /*tamanho da fonte */
+  
+}
+form label{
+  display: block; /* Quebra de linha*/
+  color: #ff1bd9;
+  font-size: 15px;
+  font-weight:  bold; /* negrito Lembrar Senha*/
+  
+}
+form button{
+  width: 50%;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ff39de;
+  border-radius: 8px;
+  border: 0;
+  margin: 20px auto; 
+  display: block; /* centraliza após margin 20px auto*/
+  transition: 3.s ease; /* transição suave no button*/
+  cursor: pointer; /* identifica o botão, link com mão*/
+}
+form button:hover{
+  background-color: #ffffff;
+  color: #ff1bd9;
+}
+form p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+
+}
+form p a{ /* link a*/
+  text-decoration:  none; /* tirar linha do link*/
+  font-weight:  600; /* espeçura da letra*/
+  transition:  .3s ease;
+  color: #ff1bd9;
+}
+form p a:hover{
+  color: #003cff;
+}
+form h3{
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 7px;
+}
+@keyframes vai-e-vem {/* animar as telas*/
+  from {
+    margin-top: -10%;
+  }
+  to{
+    margin-top: 10%;
+    background-color: #ff69c5;
+  }
+/*
+  0%{
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+*/
+}
+
