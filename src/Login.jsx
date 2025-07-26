@@ -11,7 +11,7 @@ function Login() {
       <label >
         <input className='input-checkbox' type="checkbox" /> Lembrar Senha
       </label>
-      <button>Login</button>
+      <button type='button' onClick={validar}><Link to="/cafeteria">Login</Link></button>
       <p>Ainda não tem cadastro? <Link to="/cadastro">Cadastre-se</Link></p>
       <h3>&copy;Cristiano Wanzeler 2025</h3>
       <h3>Todos os direitos reservados</h3>
